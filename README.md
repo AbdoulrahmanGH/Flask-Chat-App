@@ -1,7 +1,7 @@
 # Flask-Chat-App
 This is a real-time chat application built using Flask and SocketIO. Users can join chat rooms, send messages, and view previous conversations.
 
-#Technologies Used
+# Technologies Used
 *Python
 *Flask
 *Flask-SocketIO
