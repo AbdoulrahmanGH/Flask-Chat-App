@@ -1,0 +1,179 @@
+/* Import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+/* Set background gradient */
+body {
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+#h3title{
+    font-family: "Poppins";
+    font-size: 35px;
+}
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+/* Style for home page */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for join input and button */
+.join {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+input[name="code"],
+button[name="join"],
+button[name="create"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+}
+
+input[name="code"] {
+  margin-right: 10px;
+}
+
+/* Style for create button */
+button[name="create"] {
+  background-color: #2575fc;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+button[name="create"]:hover {
+  background-color: #1355c5;
+  cursor: pointer;
+}
+
+/* Style for error message */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: red;
+}
+
+/* Style for chat room page */
+.message-box {
+  border-radius: 10px;
+  background-color: #fff;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 80vh;
+  align-items: stretch;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for messages */
+.messages {
+  overflow-y: scroll;
+  flex: 1;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Style for input message and send button */
+.inputs {
+  padding: 10px;
+  display: flex;
+  background-color: #eee;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+input[name="message"] {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button[name="send"] {
+  background-color: #2575fc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+button[name="send"]:hover {
+  background-color: #1355c5;
+}
+
+button[name="join"] {
+    background-color: #2575fc;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button[name="join"]:hover {
+    background-color: #1355c5;
+}
+
+#nameLabel {
+    font-size: 2rem;
+    font-family: "Poppins";
+    font-weight: 1000;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  #nameInput {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  #nameInput:focus {
+    border-color: #4a90e2;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .muted {
+    font-size: 10px;
+    color: darkgray;
+  }
