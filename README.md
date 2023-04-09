@@ -13,9 +13,9 @@ This is a real-time chat application built using Flask and SocketIO. Users can j
 git clone https://github.com/your-username/flask-chat-app.git
 
 2.Install dependencies:
-pip install -r requirements.txt
+"pip install -r requirements.txt"
 
 3.Run the application:
-python app.py
+"python app.py"
 
 4.Navigate to http://localhost:5000 in your browser.
